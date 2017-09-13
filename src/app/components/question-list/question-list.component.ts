@@ -8,7 +8,7 @@ import { Question } from '../../models/question';
   styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent implements OnInit {
-
+  
   questions:Question[];
   constructor(public dataService:DataService) {
     
